@@ -6,10 +6,10 @@ Sample Appium test automation using Cucumber-JVM
 * Java 8
 * Maven
 * IDE with Cucumber Plugin installed
-* More info on [Appium Setup instructions](http://appium.io/slate/en/master/?ruby#running-appium-on-mac-os-x)
+
 
 ## Project Structure
-* Configuration package - Hooks and API Processor
+* Configuration package - Hooks 
 * Runners - Cucumber Runner Test
 * Screens - Page Classes with Page Actions defined
 * Step Definitions - Screen and its Steps Defs.
@@ -26,4 +26,8 @@ $ `git clone https://github.com/SrinivasanTarget/AppiumCucumber.git `
 
 $ `mvn clean install`
 
+## Points to note before running the test cases
+* Need to start Appium server Manually (url : https://0.0.0.0:4327)
+* Configure the \src\test\resources\deviceconfig.properties file to point to specific device
+* App Launched is handled at Before Hooks
 
