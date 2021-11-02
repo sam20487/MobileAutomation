@@ -1,4 +1,4 @@
-# AppiumCucumber
+# Appium for Calculator operation
 Sample Appium test automation using Cucumber-JVM
 
 ## Pre-requisites
@@ -30,4 +30,6 @@ $ `mvn clean install`
 * Need to start Appium server Manually (url : https://0.0.0.0:4327)
 * Configure the \src\test\resources\deviceconfig.properties file to point to specific device
 * App Launched is handled at Before Hooks
+
+
 
